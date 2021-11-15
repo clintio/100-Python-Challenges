@@ -8,15 +8,15 @@
 #Write your code below this line 👇
 # Inputs
 print("Welcome to the tip calculator!\n")
-total_bill = input("What was the total bill? $")
-tip_percent = input("How much tip would you like to give? 10, 12, or 15? ")
-number_people = input("How many people to split the bill? ")
+total_bill = float(input("What was the total bill? $"))
+tip_percent = int(input("How much tip would you like to give? 10, 12, or 15? "))
+number_people = int(input("How many people to split the bill? "))
 
 #Calculations
-tip_decimal = 1 + float(tip_percent)/100
-each_person_pay = (float(total_bill)/int(number_people))*tip_decimal
+tip_decimal = 1 + tip_percent/100
+each_person_pay = (total_bill/number_people)*tip_decimal
 
-each_person_pay_2decimal = round(each_person_pay, 2)
+each_person_pay_2decimal = "{:.2f}".format(each_person_pay)
 
 #Output
 print(f"Each person should pay: ${each_person_pay_2decimal}")
