@@ -1,6 +1,9 @@
+Notes: 
+draw.io for diagrams
+
 # 100 days of coding challenge (Python)  
-SYLLABUS  
-www.appbrewery.com  
+SYLLABUS (From www.appbrewery.com)
+
 B E G I N N E R P Y T H O N  
 Variables in Python  
 String Manipulation  
@@ -51,12 +54,6 @@ Introduction to the Pandas Framework
 List Comprehensions  
 Dictionary Comprehensions  
 
-
-
-
-
-
-
 I N T E R M E D I A T E +  
 Packing and Unpacking Functions in Python  
 Creating Desktop GUI Apps with Tkinter  
@@ -105,10 +102,6 @@ Descriptive Statistics
 Creating Bar Charts, Pie Charts, Donut Charts, Box Plots with  
 Plotly  
 Creating NumPy NDArrays  
-
-
-
-
 
 P R O F E S S I O N A L P O R T F O L I O  
 B U I L D I N G I N D E P E N D E N T  
