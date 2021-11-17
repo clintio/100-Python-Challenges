@@ -23,12 +23,12 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Find Captain Flint's treasure by typing your choices.") 
 
-choice1 = input('\nStart walking either "left" or "right"? ').lower()
+choice1 = input('\nStart walking either "left" or "right"?\n').lower()
 if choice1 == "left": #Good choice
-  choice2 = input('\nYou get to a lake and see a little island in the middle. \nHow do you get there? Either "wait" or "swim"? ').lower()
+  choice2 = input('\nYou get to a lake and see a little island in the middle. \nHow do you get there? Either "wait" or "swim"?\n').lower()
   
   if choice2 == "wait": #Good choice
-    choice3 = input('\nYou find a boat and sail to the island. You enter a large house with 3 colored doors.\nWhich door do you open? Either "red","yellow", or "blue"? ').lower()
+    choice3 = input('\nYou find a boat and sail to the island. You enter a large house with 3 colored doors.\nWhich door do you open? Either "red","yellow", or "blue"?\n').lower()
     
     if choice3 == "yellow": #Winner
       print("\nYou found the treasure! You Win!")
