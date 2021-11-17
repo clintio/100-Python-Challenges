@@ -1,30 +1,4 @@
-print("Welcome to Treasure Island.")
-print("Find Captain Flint's treasure by typing your choices.") 
-
-#Write your code below this line 👇
-## Question 1
-user_start = input('\nStart walking either "left" or "right"? ').lower()
-if user_start == "right":
-  print("\nYou fall into a hole and die. Game over")
-
-## Question 2
-elif user_start == "left":
-  user_lake = input('\nYou get to a lake and see a little island in the middle. \nHow do you get there? Either "wait" or "swim"? ').lower()
-  if user_lake == "swim":
-    print("\nYou're eaten by pirahanas. Game Over.")
-  
-  ## Question 3
-  elif user_lake == "wait":
-    user_door = input('\nYou find a boat and sail to the island. \nYou enter a large house with 3 colored doors.\nWhich door do you open? Either "red","yellow", or "blue"? ').lower()
-
-    # For the gameovers(x2)
-    if user_door == "red":
-      print("\nThe floor lights on fire and burns you alive. Game Over.")
-    elif user_door == "blue":
-      print("\nBeasts jump out and devour you. Game Over")
-    # For the winner
-    elif user_door == "yellow":
-      print('''
+print('''
 *******************************************************************************
           |                   |                  |                     |
  _________|________________.=""_;=.______________|_____________________|_______
@@ -46,12 +20,33 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-      print("The lights go out. A neon sign appears: \nYou found the treasure! You Win!")
+print("Welcome to Treasure Island.")
+print("Find Captain Flint's treasure by typing your choices.") 
+
+choice1 = input('\nStart walking either "left" or "right"? ').lower()
+if choice1 == "left": #Good choice
+  choice2 = input('\nYou get to a lake and see a little island in the middle. \nHow do you get there? Either "wait" or "swim"? ').lower()
+  
+  if choice2 == "wait": #Good choice
+    choice3 = input('\nYou find a boat and sail to the island. You enter a large house with 3 colored doors.\nWhich door do you open? Either "red","yellow", or "blue"? ').lower()
+    
+    if choice3 == "yellow": #Winner
+      print("\nYou found the treasure! You Win!")
+    
+    # For the gameovers
+    elif choice3 == "red":
+      print("\nThe floor lights on fire and burns you alive. Game Over.")
+    elif choice3 == "blue":
+      print("\nBeasts jump out and devour you. Game Over")
     else:
       print("\nYou chose a door that doesn't exist. That means you don't exist. Game Over.")
 
-  # Catchall
+  elif choice2 == "swim":
+    print("\nYou're eaten by pirahanas. Game Over.")
   else:
     print('\nSorry, we didn\'t recognize your answer resulting in Game Over.\nFor next time, type one of the "choices" provided.')
+
+elif choice1 == "right":
+  print("\nYou fall into a hole and die. Game over")
 else:
   print('\nSorry, we didn\'t recognize your answer resulting in Game Over.\nFor next time, type one of the "choices" provided.')
