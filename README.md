@@ -5,7 +5,7 @@ https://ascii.co.uk/art for ASCII images
 # 100 days of coding challenge (Python)  
 SYLLABUS (From www.appbrewery.com)
 
-B E G I N N E R P Y T H O N  
+B E G I N N E R  
 Variables in Python  
 String Manipulation  
 Input and Print Functions  
@@ -31,7 +31,7 @@ Doc Strings vs. Comments
 Scope and Local/Global Variables  
 Debugging Techniques  
 
-I N T E R M E D I A T E P Y T H O N  
+I N T E R M E D I A T E  
 Local Development Environment Setup  
 PyCharm Tips and Tricks  
 Python Object Oriented Programming  
@@ -83,7 +83,7 @@ Python Decorators
 Templating with Jinja 2  
 WTForms  
 
-A D V A N C E D P Y T H O N  
+A D V A N C E D  
 Build Your Own REST API with Python  
 Build Your Own Blog  
 Databases with SQLite  
@@ -104,8 +104,10 @@ Creating Bar Charts, Pie Charts, Donut Charts, Box Plots with
 Plotly  
 Creating NumPy NDArrays  
 
-P R O F E S S I O N A L P O R T F O L I O  
-B U I L D I N G I N D E P E N D E N T  
+P R O F E S S I O N A L  
+P O R T F O L I O  
+B U I L D I N G  -  
+I N D E P E N D E N T  
 A S S I G N M E N T S  
 Array Slicing and Subsetting  
 Matrix Multiplication  
