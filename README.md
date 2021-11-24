@@ -1,6 +1,7 @@
-Notes: 
+Notes:  
 draw.io for diagrams  
-https://ascii.co.uk/art for ASCII images
+https://ascii.co.uk/art for ASCII images  
+[Google drive](https://drive.google.com/file/d/1Z9t0HU76_W0E6pR9BlNbCDPHTtAYIoy4/view?usp=sharing) for Python cheat sheet  
 
 # 100 days of coding challenge (Python)  
 SYLLABUS (From www.appbrewery.com)
