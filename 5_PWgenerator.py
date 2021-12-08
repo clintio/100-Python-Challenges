@@ -1,4 +1,4 @@
-
+    
 # Source: Dr. Angela
 # https://www.udemy.com/course/100-days-of-code/learn/lecture/18085749?start=225#announcements
 
@@ -23,13 +23,10 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #print(f"{nr_symbols} symbols")
 #print(f"{nr_numbers} numbers")
 
-
 ## Eazy Level - Order not randomized.
 # Simply concatenating values as strings
 # e.g. 4 letters, 2 symbols, 2 numbers = JduE&!91
-
 #password ="" # Setup
-#
 #for letter in range(1,nr_letters+1):
 #    random_letter = random.choice(letters)
 #    password += random_letter 
@@ -47,25 +44,23 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 ## Hard Level - Order of characters randomised.
 # Adding values as list.
 # e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
-password = [] # setup
+password_list = [] # setup
 
 for letter in range(1,nr_letters+1):
-    password.append(random.choice(letters))
+    password_list.append(random.choice(letters))
 
 for symbol in range(1,nr_symbols+1):
-    password.append(random.choice(symbols))
+    password_list.append(random.choice(symbols))
     
 for number in range(1, nr_numbers+1):
-    password.append(random.choice(numbers))
+    password_list.append(random.choice(numbers))
     
-random.shuffle(password) # Shuffle the password characters
-# print(password)
+#print(password_list)
+random.shuffle(password_list) # Shuffle the password characters
+#print(password_list)
 
 # Concatenate the password characters to string
-final_pw = "" # setup
-
-for position in range(1,len(password)+1):
-  final_pw = final_pw + password[position-1]
-
-print(f"Your password is: {final_pw}")
-
+password = ""
+for char in password_list:
+    password += char
+print(f"Your password is: {password}")
