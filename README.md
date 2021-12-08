@@ -1,7 +1,9 @@
-Notes:  
+Interesting links:  
 draw.io for diagrams  
 https://ascii.co.uk/art for ASCII images  
 [Google drive](https://drive.google.com/file/d/1Z9t0HU76_W0E6pR9BlNbCDPHTtAYIoy4/view?usp=sharing) for Python cheat sheet  
+[Reeborg robot](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json) for practicing functions 
+
 
 # 100 days of coding challenge (Python)  
 SYLLABUS (From www.appbrewery.com)
