@@ -2,7 +2,7 @@
 * [draw.io](draw.io) for diagrams  
 * https://ascii.co.uk/art for ASCII images  
 * [Reeborg robot](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json) for mazes   
-* [replit](https://replit.com/@clintio/tip-calculator-start#main.py) for repo
+* [replit](https://replit.com/repls?starred=true) for repo
 
 # Notes  
 * [Google drive](https://drive.google.com/file/d/1Z9t0HU76_W0E6pR9BlNbCDPHTtAYIoy4/view?usp=sharing) for Python cheat sheet  
