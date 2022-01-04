@@ -1,7 +1,7 @@
-## Source
-https://replit.com/@clintio/treasure-island-start#main.py
+# Source-  https://www.udemy.com/course/100-days-of-code/learn/lecture/18029131#overview  
+# My code- https://replit.com/@clintio/treasure-island-start#main.py
 
-## Python script
+## Main script
 print('''
 *******************************************************************************
           |                   |                  |                     |
