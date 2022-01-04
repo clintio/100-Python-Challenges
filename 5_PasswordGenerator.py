@@ -1,6 +1,6 @@
     
-# Source: Dr. Angela
-# https://www.udemy.com/course/100-days-of-code/learn/lecture/18085749?start=225#announcements
+# Source- Dr. Angela https://www.udemy.com/course/100-days-of-code/learn/lecture/18085749?start=225#announcements
+# My code- https://replit.com/@clintio/password-generator-start#main.py
 
 #Password Generator Project
 import random
