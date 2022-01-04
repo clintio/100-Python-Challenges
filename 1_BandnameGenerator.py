@@ -1,10 +1,9 @@
-Band Name generator 11/11   
-100 days of code challenge with app brewery
+## Band Name generator 11/11   
+# 100 days of code challenge with app brewery
+# Source- https://www.udemy.com/course/100-days-of-code/learn/lecture/18029131#overview  
+# My code- https://replit.com/@clintio/band-name-generator-start#main.py
 
-## Source:  
-https://replit.com/@clintio/band-name-generator-start#main.py
-
-## Python script:  
+## Main script:  
 #1. Create a greeting for your program.  
 print("Bienvenido al generador de nombre de banda!")  
 
