@@ -2,7 +2,7 @@
 #Setup
 import random
 from hangman_words import word_list
-from replit import clear
+#from replit import clear
 
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
@@ -29,7 +29,7 @@ while not end_of_game:
     if guess in old_guesses: 
       print(f'You\'ve already guessed the letter "{guess}".')
     else:
-      clear()
+      #clear()
       #Check the letter
       for position in range(word_length):
           letter = chosen_word[position]
